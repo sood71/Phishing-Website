@@ -1,0 +1,191 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhmtl11/DTD/xhtml11.dtd">
+<!-- XML/XHTML boilerplate code -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+	<title>Home</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-grid">
+      <div class="brand">
+        <img src="images/logo.png" alt="PhishAware logo" class="logo-img">
+        <span class="brand-name">PhishAware</span>
+      </div>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="tips.html">Tips</a>
+        <a href="examples.html">Examples</a>
+        <a href="faq.html">FAQ</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container-hero">
+      <div class="hero-left">
+        <h1>Do not get hooked. Learn to spot phishing fast</h1>
+        <p class="lead">Short lessons, real examples, and friendly tips to help you identify scam 
+						emails, fake websites, and suspicious messages.
+		</p>
+        <div class="hero-ctas">
+          <a href="#quiz" class="btn-primary">Take the Quick Quiz</a>
+          <a href="#faq" class="btn-secondary">How it works</a>
+        </div>
+
+        <ul class="trust-list">
+          <li><img src="images/logo-docusign.png" alt="DocuSign" /></li>
+          <li><img src="images/logo-airbus.png" alt="Airbus" /></li>
+          <li><img src="images/logo-nokia.png" alt="Nokia" /></li>
+        </ul>
+      </div>
+
+      <div class="hero-right">
+        <img src="images/hero.jpg" alt="Phishing awareness illustration" class="hero-image">
+        <div class="hero-card">
+          <h4>Micro-lessons</h4>
+          <p>Short lessons after simulated emails. Learn as you go.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section id="features" class="container section">
+      <div class="grid-3">
+        <div class="feature-card">
+          <img src="images/icon-personalize.svg" alt="">
+          <h3>Personalized</h3>
+          <p>Content tailored to your role and language — short and relevant.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/icon-gamify.svg" alt="">
+          <h3>Gamified</h3>
+          <p>Earn badges and climb the leaderboard — learning that feels fun.</p>
+        </div>
+        <div class="feature-card">
+          <img src="images/icon-metrics.svg" alt="">
+          <h3>Track Progress</h3>
+          <p>See your improvement over time with simple metrics.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BADGES / LEADERBOARD (static visual) -->
+    <section id="rewards" class="container section soft">
+      <h2>Rewards & Leaderboard</h2>
+      <p class="muted">Small nudges help — stars and badges encourage healthy security habits.</p>
+
+      <div class="rewards-grid">
+        <div class="badge">
+          <div class="badge-ico">★</div>
+          <h4>Phishbuster</h4>
+          <small>Reported 10 suspicious emails</small>
+        </div>
+        <div class="badge">
+          <h4>Top Reporter</h4>
+          <small>Company leaderboard — 3rd place</small>
+        </div>
+        <div class="score-card">
+          <h3>Human Risk Score</h3>
+          <div class="score-ring">
+            <div class="score-number">72</div>
+          </div>
+          <small class="muted">Lower is better — shows org readiness</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXAMPLES -->
+    <section id="examples" class="container section">
+      <h2>Example Scams (what to look for)</h2>
+      <div class="examples-grid">
+        <article class="example">
+          <img src="images/email-scam.jpg" alt="">
+          <h4>Fake bank email</h4>
+          <p>Asks to "verify" your password — real banks never ask for passwords via email.</p>
+        </article>
+
+        <article class="example">
+          <img src="images/spoofed-site.jpg" alt="">
+          <h4>Spoofed login page</h4>
+          <p>URL doesn't match the site name — always check the address bar before signing in.</p>
+        </article>
+
+        <article class="example">
+          <img src="images/sms-scam.jpg" alt="">
+          <h4>Urgent SMS</h4>
+          <p>Threats or immediate actions — slow down and verify via official channels.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="container section">
+      <h2>What people say</h2>
+      <div class="test-grid">
+        <blockquote class="test-card">
+          <p>"The bite-sized lessons made our team more alert — engagement went way up."</p>
+          <footer>— IT Lead, Acme Co.</footer>
+        </blockquote>
+
+        <blockquote class="test-card">
+          <p>"We started reporting real threats faster — the program gave us visibility we didn't have."</p>
+          <footer>— Security Officer, Nova Inc.</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- QUICK QUIZ (CSS reveal like earlier) -->
+    <section id="quiz" class="container section card-quiz">
+      <h2>Quick quiz — spot the phishing attempt</h2>
+      <div class="q">
+        <p><strong>1.</strong> An email says "Your invoice is overdue" and has a download link. What do you do?</p>
+        <div class="options">
+          <input id="q1a" type="radio" name="q1">
+          <label for="q1a">Open the attachment to check</label>
+
+          <input id="q1b" type="radio" name="q1">
+          <label for="q1b">Confirm with sender using a known contact method</label>
+
+          <div class="explain">Answer: b — verify via official channels before opening attachments.</div>
+        </div>
+      </div>
+      <p class="muted">(This quiz is static — later we can add scoring.)</p>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="container section">
+      <h2>FAQ</h2>
+      <details>
+        <summary>What is a phishing simulation?</summary>
+        <p>A practice email that mimics real attacks used to help people learn how to spot scams.</p>
+      </details>
+
+      <details>
+        <summary>Why do badges and leaderboards help?</summary>
+        <p>Small rewards increase participation and awareness over time.</p>
+      </details>
+
+      <details>
+        <summary>How often should I train?</summary>
+        <p>Short, frequent micro-lessons (every few days or weekly) keep skills fresh.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> PhishAware — Learn. Verify. Report.</p>
+      <small class="muted">Resources: Canadian Anti-Fraud Centre • Report suspicious emails to your IT team</small>
+    </div>
+  </footer>
+
+  <script>
+    // small helper for the copyright year only
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
